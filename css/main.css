@@ -5,13 +5,14 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
--moz-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
--webkit-text-size-adjust: 100%;
-text-size-adjust: 100%;
-box-sizing: border-box;
-font: normal 100%/1.3 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  font: normal 100%/1.3 sans-serif;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -42,7 +43,7 @@ nav li {
 }
 
 nav a {
-  display: block
+  display: block;
   padding: .5em .75em;
   color: #333;
   text-decoration: none;
